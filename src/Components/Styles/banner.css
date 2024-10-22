@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital@1&family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+.Banner {
+    margin-top: 60px;
+    height: 428px;
+    background-image: url("../Images/banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center -30px;
+}
+
+.BannerShadow {
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.motto {
+
+    color: #F0E68C;
+    font-family: 'Fira Sans';
+    padding-top: 60px;
+    font-size: 30pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (min-width:360px) and (max-width:480px) {
+
+    .Banner {
+
+        height: 100px;
+        background-position: center 0px;
+        background-attachment: scroll;
+    }
+
+    .motto {
+        padding-top: 20px;
+        font-size: 30pt;
+    }
+    
+}
+
